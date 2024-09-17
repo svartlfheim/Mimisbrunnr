@@ -1,0 +1,62 @@
+.headerWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: var(--header-size);
+    z-index: var(--header-z-index);
+    
+}
+.header {
+    position:absolute;
+    top: 0;
+    width: 100%;
+    background: var(--frame-colour);
+    font-size: 2.5rem;
+    padding: var(--header-padding);
+    height: calc(var(--header-size) - var(--header-padding) - var(--header-padding));
+    box-shadow: 0px 3px 5px #0003;
+    
+}
+
+
+.menuIconWrapper {
+    display: inline-flex;
+    height: calc(var(--header-size) - var(--header-padding) - var(--header-padding));
+    margin-right: 1rem;
+    
+    user-select: none;
+}
+
+.menuIcon {
+    top: 50%;
+    margin: 0;
+    width: calc(var(--menu-closed-size) - var(--menu-hpadding) - var(--menu-hpadding));
+    text-align:center;
+}
+.menuIcon svg {
+    display: inline-flex;
+    font-size: 1.5rem;
+    padding: 2px 4px;
+    color: var(--nav-main-colour);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menuIcon svg:hover {
+    background: var(--main-bg-colour);
+    color: var(--nav-highlight-colour);
+}
+
+.logo {
+    display: inline-flex;
+    height: calc(var(--header-size) - var(--header-padding) - var(--header-padding));
+    margin-right: 1rem;
+}
+
+.logoImg {
+    height: 2.5rem;
+    position: relative;
+    top: var(--header-padding);
+    left: var(--header-padding);
+}

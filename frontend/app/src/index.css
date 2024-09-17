@@ -1,0 +1,46 @@
+@import-normalize; /* bring in normalize.css styles */
+
+:root {
+    --neutral-blue: #0072ff;
+
+
+    --text-colour: #ffffff;
+    --frame-colour: #161a22;
+    --bg-highlight-colour: #afafaf;
+
+    --main-bg-colour: #0d1117;
+
+    --logo-blue: #2389ff;
+
+    --nav-main-colour: #afafaf;
+    --nav-highlight-colour: #ffffff;
+    --header-wrapper-size: 95px;
+    --header-size: 60px;
+    --header-padding: 5px;
+    --header-z-index: 500;
+    --header-breadcrumbs-size: 35px;
+
+    --menu-z-index: 600;
+    --menu-closed-size: 50px;
+    --menu-hpadding: 5px;
+    --menu-li-padding: 5px;
+
+    --content-padding: 1rem;
+
+    --footer-height: 40px;
+    --footer-padding: 5px;
+    --footer-z-index: 700;
+    --footer-text-size: 30px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--main-bg-colour);
+    color: var(--text-colour);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
